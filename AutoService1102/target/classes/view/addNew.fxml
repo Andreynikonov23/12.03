@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="314.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.NewController">
+   <children>
+      <TextField fx:id="fieldFirstname" layoutX="189.0" layoutY="14.0" text="Имя" />
+      <TextField fx:id="fieldLastname" layoutX="189.0" layoutY="39.0" text="Фамилия" />
+      <TextField fx:id="fieldPatronymic" layoutX="189.0" layoutY="64.0" text="Отчество" />
+      <TextField fx:id="fieldBirthday" layoutX="189.0" layoutY="89.0" text="Дата Рождения" />
+      <TextField fx:id="fieldRegistrationDate" layoutX="189.0" layoutY="114.0" text="Дата Регистрации" />
+      <TextField fx:id="fieldEmail" layoutX="189.0" layoutY="139.0" text="Email" />
+      <TextField fx:id="fieldPhone" layoutX="189.0" layoutY="164.0" text="Телефон" />
+      <TextField fx:id="fieldGender" layoutX="189.0" layoutY="189.0" text="Пол" />
+      <TextField fx:id="fieldMainImagePhoto" layoutX="189.0" layoutY="214.0" text="Фото" />
+      <Button fx:id="buttonAdd" layoutX="238.0" layoutY="275.0" mnemonicParsing="false" onAction="#OnActionAdd" text="Add" />
+   </children>
+</AnchorPane>
